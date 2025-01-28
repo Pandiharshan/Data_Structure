@@ -79,3 +79,4 @@ public class Main {
         System.out.println(result); // Output: [1, 4]
     }
 }
+ 
