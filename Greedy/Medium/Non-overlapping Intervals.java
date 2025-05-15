@@ -32,4 +32,3 @@ class Solution {
         sc.close();
     }
 }
- 
