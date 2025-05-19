@@ -42,4 +42,3 @@ class Solution {
         sc.close();
     }
 }
- 
