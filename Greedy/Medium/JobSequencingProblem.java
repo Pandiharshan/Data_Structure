@@ -60,4 +60,3 @@ class Solution {
         scanner.close();
     }
 }
- 
