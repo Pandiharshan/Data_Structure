@@ -29,4 +29,4 @@ class Solution {
         bfs(adj, indegree, topo);
         return topo;
     }
-} 
+}
