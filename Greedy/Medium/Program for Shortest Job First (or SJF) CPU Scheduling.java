@@ -30,3 +30,4 @@ class Solution {
         sc.close();
     }
 }
+ 
