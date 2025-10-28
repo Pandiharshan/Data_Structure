@@ -26,4 +26,4 @@ class Solution {
     public TreeNode bstFromPreorder(int[] preorder) {
         return construct(preorder,Long.MIN_VALUE,Long.MAX_VALUE);
     }
-}
+} 
