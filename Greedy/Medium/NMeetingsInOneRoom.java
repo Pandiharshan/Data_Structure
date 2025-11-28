@@ -49,4 +49,3 @@ class Solution
         sc.close();
     }
 }
- 
