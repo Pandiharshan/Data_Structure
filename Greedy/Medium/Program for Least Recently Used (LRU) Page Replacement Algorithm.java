@@ -78,4 +78,3 @@ class Solution {
         sc.close();
     }
 }
- 
