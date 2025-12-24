@@ -38,25 +38,25 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        int n = sc.nextInt();
+        int n = scanner.nextInt();
         int[] deadline = new int[n];
         int[] profit = new int[n];
 
         for (int i = 0; i < n; i++) {
-            deadline[i] = sc.nextInt();
+            deadline[i] = scanner.nextInt();
         }
 
         for (int i = 0; i < n; i++) {
-            profit[i] = sc.nextInt();
+            profit[i] = scanner.nextInt();
         }
 
-        Solution obj = new Solution();
-        ArrayList<Integer> res = obj.jobSequencing(deadline, profit);
+        Solution solution = new Solution();
+        ArrayList<Integer> res = solution.jobSequencing(deadline, profit);
 
         System.out.println(res.get(0) + " " + res.get(1));
 
-        sc.close();
+        scanner.close();
     }
 }
