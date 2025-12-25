@@ -17,12 +17,12 @@ class Solution {
             }
         }
 
-        int result[][] = new int[ans.size()][2];
+        int mergedIntervals[][] = new int[ans.size()][2];
         for (int i = 0; i < ans.size(); i++) {
-            result[i] = ans.get(i);
+            mergedIntervals[i] = ans.get(i);
         }
 
-        return result;
+        return mergedIntervals;
     }
 
     public static void main(String[] args) {
